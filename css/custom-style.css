@@ -1,0 +1,369 @@
+/* SAVED FOR LATED USE */
+/************************
+Fonts:
+font-family: 'Archivo', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Theme:
+Blue - background-color: #64c1f5;
+Green - background-color: #2aeba7;
+Blue - color: #64c1f5;
+Green - color: #2aeba7;
+/************************
+
+/* HTML */
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.checker {
+    background-color: red !important;
+}
+
+.checker-2 {
+    background-color: blue !important;
+}
+
+.checker-3 {
+    background-color: yellow !important;
+}
+
+.themeColor {
+    color: #2aeba7;
+}
+
+.remove-side-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* NAVBAR */
+.navbar-Custom {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-Custom {
+    font-weight: bold;
+    letter-spacing: .6px;
+}
+
+.nav-link-custom-home:hover {
+    color: #2aeba7  !important;
+    font-weight: bold;
+}
+
+.nav-link-custom-about:hover {
+    color: #d4975e  !important;
+    font-weight: bold;
+}
+
+.nav-link-custom-services:hover {
+    color: #343a40  !important;
+    font-weight: bold;
+}
+
+.nav-link-custom-contact:hover {
+    color: #543f24  !important;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero-and-nav {
+    background: no-repeat center center fixed;
+    background-image: url("../graphics/hero-bg.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+
+.text-hero {
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.mt-8 {
+    margin-top: 6rem !important;
+}
+
+.pb-7 {
+    padding-bottom: 5rem !important;
+}
+
+.hero-line {
+    background-color: white;
+    height: 2px;
+    width: 30px;
+}
+
+.hero-button {
+    padding: .5rem 1.4rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.second-headers {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+/* HOME - ONEPOINTFIVE */
+.onepointfive {
+    background-color: #64c1f5;
+    min-height: 70%;
+}
+
+.bg-icon {
+    font-size: 1.7rem;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.hero-headers {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* HOME - EXTRA SECTION */
+.extra-section {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    background-image: url("../graphics/extra-section-home.jpg") ;
+}
+
+.py-9 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+/* HOME - 2ND SECTION */
+.home-second-section {
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url("../graphics/home-sec-1.jpg") ;
+}
+
+.home-second-section-2 {
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url("../graphics/home-sec-2.jpg");
+}
+
+.home-second-section-3 {
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url("../graphics/home-sec-3.jpg");
+}
+
+.btn-box {
+    color: white;
+    background-color: #2aeba7;
+    border: none;
+    transition: background-color .3s;
+}
+
+.btn-box:hover {
+    background-color: #4ca9df;
+}
+
+.btn-box-services {
+    color: white;
+    background-color: #2aeba7;
+    border: none;
+    transition: background-color .3s;
+}
+
+.btn-box-services:hover {
+    background-color: #343a40;
+}
+
+.middle-align {
+    padding: 30% 0;
+}
+
+.box-header {
+    font-weight: bold;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+.footer-font {
+    font-size: .9rem;
+}
+
+.md-icon {
+    font-size: 1.5rem;
+}
+
+/* HOME - THIRD SECTION */
+.comma {
+    font-size: 1.4rem;
+}
+
+.circled {
+    border-radius: 50%;
+}
+
+/* ABOUT US */
+.hero-and-nav-1 {
+    background: no-repeat center center fixed;
+    background-image: url("../graphics/about-hero.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+
+.spread-video > video {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.onepointfive-1 {
+    background-color: #64c1f5;
+}
+
+/* SERVICES */
+.hero-and-nav-2 {
+    background: no-repeat center center fixed;
+    background-image: url("../graphics/hero-bg-2.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+
+.extra-section-services {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    background-image: url("../graphics/extra-section-services.jpg") ;
+}
+
+/* CONTACT */
+.hero-and-nav-3 {
+    background: no-repeat center center fixed;
+    background-image: url("../graphics/hero-bg-3.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+
+/* MEDIA QUERY */
+
+/* 767 Pixels Below */
+@media (max-width: 767px) {
+    /* NAVBAR */
+    .navbar-Custom {
+        background-color: rgba(255, 255, 255, 1);
+        color: white;
+    }
+}
+
+/* 767 Pixels Above */
+@media (min-width: 767px) {
+    /* NAVBAR */
+    .navbar-Custom {
+        color: #343a40;
+    }
+
+    /* HERO */
+    .textWhite {
+        color: white !important; 
+    }
+    .almostCenterText {
+        margin-top: 10rem !important;
+    }
+    .about-md-space {
+        margin-top: 6rem !important;
+        margin-bottom: 6rem !important;
+    }
+}
+
+/* 575 Pixels Below */
+@media (max-width: 575px) {
+    /* HTML */
+    .text-center-xs {
+        text-align: center !important;
+    }
+    .padding-top-xs-2 {
+        padding-top: 1rem;
+    }
+    .text-widen-xs {
+        width: 90 !important;
+    }
+    .reduceFont {
+        font-size: 2.5rem;
+    }
+    .reduceFont-1 {
+        font-size: 2rem;
+    }
+    .logo-side-by-side {
+        display: inline-block;
+        max-width: 50% !important;
+    }
+    .width85 {
+        width: 85% !important;
+    }
+    .removeSidePadding {
+        padding-left: 0 !important; 
+        padding-right: 0 !important; 
+    }
+}
+
+/* BOOTSTRAP VIDEO MEDIA QUERY */
+
+/* 1200px Above */
+@media (min-width: 1200px){
+    .responsive-video {
+        max-width: 100%;
+        height: 70%;
+    }
+}
+
+/* 1199px Below */
+@media (max-width: 1199px){
+    .responsive-video {
+        max-width: 100%;
+        height: 70%;
+    }
+}
+
+/* 992px Below */
+@media (max-width: 992px){
+    .responsive-video {
+        max-width: 100%;
+        height: 70%;
+    }
+}
+
+/* 768px Below */
+@media (max-width: 768px){
+    .responsive-video {
+        max-width: 100%;
+        height: 70%;
+    }
+}
+
+/* 567 Below */
+@media (max-width: 567px){
+    .responsive-video {
+        max-width: 100%;
+        height: 70%;
+    }
+}
+
